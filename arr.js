@@ -62,3 +62,26 @@
 // //Q3 add amazon at end
 // company.push("amazon");
 // console.log(company);
+
+// // foreach method || foreach function (chapter 5 me h)
+
+// // what are higher order function||method 
+// // the function which take another function as parameter are hof||hom
+
+// let int=[1,2,3,4,5];
+// int.forEach(val => {
+//     console.log(val);    
+// });
+
+ // //Q4 print the square of each element of array
+// let arrAy=[11,22,33,44];
+// arrAy.forEach(element=> {
+//     console.log(element*element);
+// })
+
+// //filter
+let cod = [5,56,88,62];
+let cod2 = cod.filter(cal=>{
+    return cal%2 === 0;
+})
+console.log(cod2);
