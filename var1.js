@@ -35,15 +35,15 @@
 // make a guess game
 //prompt are always strings
 
-let numb =7;
-let usernum = prompt("enter your guess");
+// let numb =7;
+// let usernum = prompt("enter your guess");
 
 
-while(usernum!=numb){
-    usernum = prompt("you enter the wrong number");
-}
+// while(usernum!=numb){
+//     usernum = prompt("you enter the wrong number");
+// }
 
-    console.log("woow!!");
+//     console.log("woow!!");
 
 //template literls
 
