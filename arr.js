@@ -80,8 +80,16 @@
 // })
 
 // //filter
-let cod = [5,56,88,62];
-let cod2 = cod.filter(cal=>{
-    return cal%2 === 0;
+// let cod = [5,56,88,62];
+// let cod2 = cod.filter(cal=>{
+//     return cal%2 === 0;
+// })
+// console.log(cod2);
+
+// //added cum back
+let docTitle = document.title;
+window.addEventListener("blur", () => {document.title = "anty munty sunty";
 })
-console.log(cod2);
+window.addEventListener("focus", () => {
+document.title = docTitle;
+})
